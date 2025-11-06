@@ -1,4 +1,4 @@
-1 Cài đặt
+# 1 Cài đặt
 Cài đặt Python và thư viện cần thiết
 pip install torch numpy matplotlib pygame
 
@@ -9,14 +9,14 @@ print(torch.cuda.is_available())
 
 Nếu in ra True, chương trình sẽ tự động dùng GPU để tăng tốc huấn luyện.
 
-2 Cách chạy
+# 2 Cách chạy
 Huấn luyện mô hình (không giao diện — nhanh hơn)
 
 Trong file agent.py, chọn dòng:
 
 from game_no_ui import Game
-# from game import Game
-
+''' # from game import Game
+'''
 
 Sau đó bật huấn luyện:
 
